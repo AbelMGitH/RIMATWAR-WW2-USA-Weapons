@@ -26,7 +26,7 @@
                 <li Class="PatchOperationAddModExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
                     <xpath>Defs/ThingDef[defName="HRK_Bazooka"]</xpath>
                     <value>
-                        <li Class="HeavyWeapons.HeavyWeapon">
+                        <li Class="VEF.Weapons.HeavyWeapon">
                             <weaponHitPointsDeductionOnShot>20</weaponHitPointsDeductionOnShot>
                             <isHeavy>false</isHeavy>
                         </li>
@@ -36,7 +36,7 @@
                 <li Class="PatchOperationReplace" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
                     <xpath>Defs/ThingDef[defName="HRK_Bazooka"]/verbs/li[1]/verbClass</xpath>
                     <value>
-                        <verbClass>HeavyWeapons.Verb_Shoot</verbClass>
+                        <verbClass>VEF.Weapons.Verb_Shoot</verbClass>
                     </value>
                 </li>
 

@@ -11,7 +11,7 @@
                 <li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[defName="HRK_M1917Revolver"]</xpath>
                     <value>
-                        <li Class="VFECore.ThingDefExtension">
+                        <li Class="VEF.Things.ThingDefExtension">
                             <usableWithShields>true</usableWithShields>
                         </li>
                     </value>
@@ -20,7 +20,7 @@
                 <li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[defName="HRK_MK2Grenade" or defName="HRK_M37DemoGrenade"]</xpath>
                     <value>
-                        <li Class="VFECore.ThingDefExtension">
+                        <li Class="VEF.Things.ThingDefExtension">
                             <usableWithShields>true</usableWithShields>
                         </li>
                     </value>
